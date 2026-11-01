@@ -1,0 +1,137 @@
+{
+  "cold": {
+    "language": "cpp",
+    "mode": "cold",
+    "timestamp_utc": "2026-11-01T22:49:42.118822+00:00",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "build_command": [
+      "c++",
+      "-std=c++17",
+      "-O3",
+      "-ffp-contract=off",
+      "main.cpp",
+      "-o",
+      "program"
+    ],
+    "run_command": [
+      "./program"
+    ],
+    "versions": [
+      {
+        "command": [
+          "c++",
+          "--version"
+        ],
+        "executable": "/usr/bin/c++",
+        "output": "Apple clang version 21.0.0 (clang-2100.0.123.102)\nTarget: arm64-apple-darwin25.5.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin"
+      }
+    ],
+    "reference_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05",
+    "tolerance": 1,
+    "source_sha256": {
+      "main.cpp": "ac3676f1dd17a10a21c4fcebecdb2848c9667a7016fdd2177a3afdeeefd7eea3"
+    },
+    "warm": "not measured",
+    "runs": [
+      {
+        "round": 1,
+        "wall_seconds": 2.345674625,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 2,
+        "wall_seconds": 1.665701208,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 3,
+        "wall_seconds": 1.678247917,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 4,
+        "wall_seconds": 1.679367959,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 5,
+        "wall_seconds": 1.731800542,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      }
+    ],
+    "schedule": [
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust",
+      "rust",
+      "cpp",
+      "java",
+      "go",
+      "javascript",
+      "python",
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust",
+      "rust",
+      "cpp",
+      "java",
+      "go",
+      "javascript",
+      "python",
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust"
+    ],
+    "summary": {
+      "median_seconds": 1.679367959,
+      "min_seconds": 1.665701208,
+      "max_seconds": 2.345674625,
+      "spread_seconds": 0.679973417
+    }
+  }
+}

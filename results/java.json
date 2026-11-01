@@ -1,0 +1,145 @@
+{
+  "cold": {
+    "language": "java",
+    "mode": "cold",
+    "timestamp_utc": "2026-11-01T22:49:41.248538+00:00",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "build_command": [
+      "javac",
+      "-d",
+      ".",
+      "Main.java"
+    ],
+    "run_command": [
+      "java",
+      "-cp",
+      ".",
+      "Main"
+    ],
+    "versions": [
+      {
+        "command": [
+          "javac",
+          "-version"
+        ],
+        "executable": "/opt/homebrew/opt/openjdk/bin/javac",
+        "output": "javac 27.0.1.0.3"
+      },
+      {
+        "command": [
+          "java",
+          "-version"
+        ],
+        "executable": "/opt/homebrew/opt/openjdk/bin/java",
+        "output": "openjdk version \"27.0.1.0.3\" 2026-10-24\nOpenJDK Runtime Environment Homebrew (build 27.0.1.0.3)\nOpenJDK 64-Bit Server VM Homebrew (build 27.0.1.0.3, mixed mode, sharing)"
+      }
+    ],
+    "reference_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05",
+    "tolerance": 1,
+    "source_sha256": {
+      "Main.java": "f61965d49e4282534d78c7aee9b6bbbd2558bd7f80db9e0507f7df19fb390757"
+    },
+    "warm": "not measured",
+    "runs": [
+      {
+        "round": 1,
+        "wall_seconds": 2.490533625,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 2,
+        "wall_seconds": 2.5115685,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 3,
+        "wall_seconds": 2.478120375,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 4,
+        "wall_seconds": 2.388565459,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 5,
+        "wall_seconds": 2.480789542,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      }
+    ],
+    "schedule": [
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust",
+      "rust",
+      "cpp",
+      "java",
+      "go",
+      "javascript",
+      "python",
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust",
+      "rust",
+      "cpp",
+      "java",
+      "go",
+      "javascript",
+      "python",
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust"
+    ],
+    "summary": {
+      "median_seconds": 2.480789542,
+      "min_seconds": 2.388565459,
+      "max_seconds": 2.5115685,
+      "spread_seconds": 0.12300304100000004
+    }
+  }
+}

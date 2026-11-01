@@ -1,0 +1,137 @@
+{
+  "cold": {
+    "language": "rust",
+    "mode": "cold",
+    "timestamp_utc": "2026-11-01T22:49:42.963856+00:00",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "build_command": [
+      "rustc",
+      "-O",
+      "-C",
+      "codegen-units=1",
+      "main.rs",
+      "-o",
+      "program"
+    ],
+    "run_command": [
+      "./program"
+    ],
+    "versions": [
+      {
+        "command": [
+          "rustc",
+          "--version"
+        ],
+        "executable": "/opt/homebrew/bin/rustc",
+        "output": "rustc 1.99.1 (58cf8f9c3 2026-10-13) (Homebrew)"
+      }
+    ],
+    "reference_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05",
+    "tolerance": 1,
+    "source_sha256": {
+      "main.rs": "57f4cbef101e474b42bf2381895cb23a0320361bc30175d91b91953674c92bb3"
+    },
+    "warm": "not measured",
+    "runs": [
+      {
+        "round": 1,
+        "wall_seconds": 2.355866334,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 2,
+        "wall_seconds": 1.850296542,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 3,
+        "wall_seconds": 1.848128458,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 4,
+        "wall_seconds": 1.84131125,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 5,
+        "wall_seconds": 1.837438708,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      }
+    ],
+    "schedule": [
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust",
+      "rust",
+      "cpp",
+      "java",
+      "go",
+      "javascript",
+      "python",
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust",
+      "rust",
+      "cpp",
+      "java",
+      "go",
+      "javascript",
+      "python",
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust"
+    ],
+    "summary": {
+      "median_seconds": 1.848128458,
+      "min_seconds": 1.837438708,
+      "max_seconds": 2.355866334,
+      "spread_seconds": 0.5184276259999998
+    }
+  }
+}

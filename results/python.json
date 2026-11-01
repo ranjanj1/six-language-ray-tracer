@@ -1,0 +1,130 @@
+{
+  "cold": {
+    "language": "python",
+    "mode": "cold",
+    "timestamp_utc": "2026-11-01T22:49:40.386967+00:00",
+    "platform": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "machine": "arm64",
+    "build_command": [],
+    "run_command": [
+      "python3",
+      "main.py"
+    ],
+    "versions": [
+      {
+        "command": [
+          "python3",
+          "--version"
+        ],
+        "executable": "/opt/homebrew/bin/python3",
+        "output": "Python 3.15.1"
+      }
+    ],
+    "reference_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05",
+    "tolerance": 1,
+    "source_sha256": {
+      "main.py": "f1f250eac39b16a00a9bd7dc2ceb439f305e109eab8c79a0278381aeb7d5cf5e"
+    },
+    "warm": "not measured",
+    "runs": [
+      {
+        "round": 1,
+        "wall_seconds": 125.922535916,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 2,
+        "wall_seconds": 126.081675,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 3,
+        "wall_seconds": 127.292178625,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 4,
+        "wall_seconds": 126.535514541,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      },
+      {
+        "round": 5,
+        "wall_seconds": 128.043189916,
+        "comparison": {
+          "match": true,
+          "tolerance": 1,
+          "max_pixel_difference": 0,
+          "first_differing_pixel": null,
+          "first_outside_tolerance": null
+        },
+        "output_sha256": "f1dfef5f4cfece086e1545345fe2d7b43319c37d208f018bdf54c2508a718e05"
+      }
+    ],
+    "schedule": [
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust",
+      "rust",
+      "cpp",
+      "java",
+      "go",
+      "javascript",
+      "python",
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust",
+      "rust",
+      "cpp",
+      "java",
+      "go",
+      "javascript",
+      "python",
+      "python",
+      "javascript",
+      "go",
+      "java",
+      "cpp",
+      "rust"
+    ],
+    "summary": {
+      "median_seconds": 126.535514541,
+      "min_seconds": 125.922535916,
+      "max_seconds": 128.043189916,
+      "spread_seconds": 2.1206539999999876
+    }
+  }
+}

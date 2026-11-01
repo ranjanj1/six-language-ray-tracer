@@ -1,0 +1,7 @@
+Fused multiply-add check, 1 Nov 2026 (Apple M1)
+Go attempt 1 (entries/go-attempt1-fma): 8 fused instructions
+Go attempt 2 (entries/go, the new fresh run): 6 fused instructions (lines 43,44,45,120,195,196)
+C++ (clang -O3 -ffp-contract=off): 0
+Rust (rustc -O): 0
+Java/JavaScript/Python: explicit fma calls in the sources:
+  none

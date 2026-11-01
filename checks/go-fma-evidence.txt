@@ -1,0 +1,7 @@
+go version go1.27.3 darwin/arm64
+  main.go:43		0x10009d530		1f441463		FMADDD F4, F5, F3, F3	
+  main.go:44		0x10009d55c		1f4420e7		FMADDD F4, F8, F7, F7	
+  main.go:45		0x10009d588		1f442508		FMADDD F4, F9, F8, F8	
+  main.go:120		0x10009dccc		1f439483		FMSUBD F3, F5, F4, F3			
+  main.go:195		0x10009e044		1f6cad4a		FNMSUBD F12, F11, F10, F10			
+  main.go:196		0x10009e074		1f6cad29		FNMSUBD F12, F11, F9, F9			

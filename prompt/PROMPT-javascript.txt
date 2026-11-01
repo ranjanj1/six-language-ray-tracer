@@ -1,0 +1,13 @@
+Write a ray tracer in JavaScript (Node.js).
+
+Follow the algorithm in the attached `spec.md` (based on "Ray Tracing in One Weekend"): spheres with diffuse, metal
+and glass materials, a fixed camera, the scene described in `scene.md`, and the random number generator described in
+`rng.md` with seed 42.
+
+Requirements:
+- Image size 400 x 225, 200 samples per pixel, max bounce depth 10.
+- Write the image to `out.ppm` in the PPM (P3) format described in `spec.md`.
+- Single file, standard library only, no third-party packages.
+- It must build and run with: node main.js
+
+When it runs and writes `out.ppm`, stop and tell me.
